@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_keyline_1">16dp</dimen>
+    <dimen name="material_keyline_2">8dp</dimen>
+
+    <dimen name="space_between_multiple_fields">10dp</dimen>
+    <dimen name="fb_left_right_margin">20dp</dimen>
+    <dimen name="logo_w_h">100dp</dimen>
+</resources>

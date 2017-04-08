@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/fb_banner"
+                   android:contentDescription="@string/fb_banner_description"
+                   android:adjustViewBounds="true"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_horizontal"
+                      android:layout_marginTop="@dimen/space_between_multiple_fields"
+                      android:orientation="horizontal">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/romanian"
+                      android:textColor="@color/grey_1"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/spanish"
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginStart="5dp"
+                      android:textColor="@color/grey_1"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/fb_main_color"
+                      android:layout_marginLeft="5dp"
+                      android:layout_marginStart="5dp"
+                      android:text="@string/more"/>
+        </LinearLayout>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/fb_left_right_margin"
+                  android:layout_marginRight="@dimen/fb_left_right_margin"
+                  android:layout_marginTop="40dp"
+                  android:textColorHint="@color/grey_1"
+                  android:hint="@string/email_or_phone"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/fb_left_right_margin"
+                  android:layout_marginRight="@dimen/fb_left_right_margin"
+                  android:textColorHint="@color/grey_1"
+                  android:hint="@string/password"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fb_left_right_margin"
+                android:layout_marginRight="@dimen/fb_left_right_margin"
+                android:layout_marginTop="@dimen/space_between_multiple_fields"
+                android:background="@color/fb_main_color"
+                android:text="@string/log_in"
+                android:textColor="@android:color/white"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:textColor="@color/fb_main_color"
+                  android:textStyle="bold"
+                  android:textAllCaps="true"
+                  android:layout_marginTop="@dimen/space_between_multiple_fields"
+                  android:text="@string/forgot_password"/>
+
+        <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_shape_blue_stroke"
+                android:gravity="center"
+                android:text="@string/create_new_fb_account"
+                android:layout_marginLeft="@dimen/fb_left_right_margin"
+                android:layout_marginRight="@dimen/fb_left_right_margin"
+                android:layout_marginBottom="@dimen/fb_left_right_margin"
+                android:layout_gravity="bottom"/>
+    </LinearLayout>
+</ScrollView>

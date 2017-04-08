@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.fiipractic.android.firebase">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".authenticate.ProfileActivity">
+
+        </activity>
+
+        <activity android:name=".authenticate.LoginActivity">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".authenticate.SignUpActivity">
+        </activity>
+        <activity android:name=".authenticate.ResetPasswordActivity"/>
+
+        <activity android:name=".crash.CrashActivity">
+
+        </activity>
+        <activity android:name=".realtime_db.RealTimeDbActivity"
+                  android:theme="@style/AppThemeWithActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

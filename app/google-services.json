@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "220369143063",
+    "firebase_url": "https://osd-blog.firebaseio.com",
+    "project_id": "osd-blog",
+    "storage_bucket": "osd-blog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220369143063:android:87389dc1b2904be8",
+        "android_client_info": {
+          "package_name": "com.fiipractic.android.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220369143063-9gk3gldskp4jcdkh28kcej21llohvmnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fiipractic.android.firebase",
+            "certificate_hash": "f1090ebd15fc6ad4cbf0e05901049d28f946ba83"
+          }
+        },
+        {
+          "client_id": "220369143063-p1k7u1p4omccubj2l0a84goqc9vkigoo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "220369143063.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaS05EUNyQrZQUkI0AC0hUl6MugjHcEFQ"
+        },
+        {
+          "current_key": "AIzaSyA78jOj1CEAZGahuGP7vgUTJAIX0OsYAf8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220369143063-p1k7u1p4omccubj2l0a84goqc9vkigoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
